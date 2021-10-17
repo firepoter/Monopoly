@@ -2,7 +2,9 @@ package edu.ncsu.monopoly;
 
 
 public class GameBoardCCMovePlayer extends GameBoard {
-    public GameBoardCCMovePlayer() {
+    private static final String BLUE_1 = "Blue 1";
+
+	public GameBoardCCMovePlayer() {
 		super();
 		PropertyCell blue1 = new PropertyCell();
 		PropertyCell blue2 = new PropertyCell();
@@ -10,11 +12,11 @@ public class GameBoardCCMovePlayer extends GameBoard {
         JailCell jail = new JailCell();
         CardCell chance1 = new CardCell(Card.TYPE_CHANCE, "Chance 1");
         
-        Card ccCard1 = new MovePlayerCard("Blue 1" , Card.TYPE_CC);
+        Card ccCard1 = new MovePlayerCard(BLUE_1 , Card.TYPE_CC);
         Card ccCard2 = new MovePlayerCard("Blue 2", Card.TYPE_CC);
-        Card chanceCard1 = new MovePlayerCard("Blue 1", Card.TYPE_CHANCE);
+        Card chanceCard1 = new MovePlayerCard(BLUE_1, Card.TYPE_CHANCE);
 		
-		blue1.setName("Blue 1");
+		blue1.setName(BLUE_1);
 		blue2.setName("Blue 2");
 		
 		blue1.setColorGroup("blue");
