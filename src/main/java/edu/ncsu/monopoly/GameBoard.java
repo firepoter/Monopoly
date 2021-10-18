@@ -1,6 +1,7 @@
 package edu.ncsu.monopoly;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Hashtable;
 
 public class GameBoard {
@@ -8,9 +9,8 @@ public class GameBoard {
 	private ArrayList cells = new ArrayList();
     private ArrayList chanceCards = new ArrayList();
 	//the key of colorGroups is the name of the color group.
-	private Hashtable colorGroups = new Hashtable();
+	private HashMap colorGroups = new HashMap();
 	private ArrayList communityChestCards = new ArrayList();
-	private GameMaster gameMaster;
 	
 	public GameBoard() {
 		Cell go = new GoCell();

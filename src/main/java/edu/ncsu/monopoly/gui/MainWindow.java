@@ -39,7 +39,6 @@ public class MainWindow extends JFrame implements MonopolyGUI{
 		eastPanel.setBorder(new LineBorder(Color.BLACK));
 		
 		Container c = getContentPane();
-		//setSize(800, 600);
 		Toolkit tk = Toolkit.getDefaultToolkit();
 		Dimension d = tk.getScreenSize();
 		setSize(d);

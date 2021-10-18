@@ -13,7 +13,7 @@ public class Player {
 	private String name;
 
 	private Cell position;
-	private ArrayList properties = new ArrayList();
+	private ArrayList<PropertyCell> properties = new ArrayList<PropertyCell>();
 	private ArrayList railroads = new ArrayList();
 	private ArrayList utilities = new ArrayList();
 	

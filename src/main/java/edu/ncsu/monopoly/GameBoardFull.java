@@ -1,7 +1,9 @@
 package edu.ncsu.monopoly;
 
 public class GameBoardFull extends GameBoard {
-    private static final String FUCHSIA = "fuchsia";
+    private static final String GREEN = "green";
+	private static final String MAROON = "maroon";
+	private static final String FUCHSIA = "fuchsia";
 	private static final String PURPLE = "purple";
 	private static final String YELLOW = "yellow";
 
@@ -103,19 +105,19 @@ public class GameBoardFull extends GameBoard {
         p3.setRent(12);
         
         o1.setPrice(180);
-        o1.setColorGroup("maroon");
+        o1.setColorGroup(MAROON);
         o1.setHousePrice(100);
         o1.setName("St. James Avenue");
         o1.setRent(14);
         
         o2.setPrice(180);
-        o2.setColorGroup("maroon");
+        o2.setColorGroup(MAROON);
         o2.setHousePrice(100);
         o2.setName("Tennessee Avenue");
         o2.setRent(14);
         
         o3.setPrice(200);
-        o3.setColorGroup("maroon");
+        o3.setColorGroup(MAROON);
         o3.setHousePrice(100);
         o3.setName("New York Avenue");
         o3.setRent(16);
@@ -157,19 +159,19 @@ public class GameBoardFull extends GameBoard {
         y3.setRent(24);
         
         g1.setPrice(300);
-        g1.setColorGroup("green");
+        g1.setColorGroup(GREEN);
         g1.setHousePrice(200);
         g1.setName("Pacific Avenue");
         g1.setRent(26);
         
         g2.setPrice(300);
-        g2.setColorGroup("green");
+        g2.setColorGroup(GREEN);
         g2.setHousePrice(200);
         g2.setName("North Carolina Avenue");
         g2.setRent(26);
         
         g3.setPrice(320);
-        g3.setColorGroup("green");
+        g3.setColorGroup(GREEN);
         g3.setHousePrice(200);
         g3.setName("Pennsylvania Avenue");
         g3.setRent(28);

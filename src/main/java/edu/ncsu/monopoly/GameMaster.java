@@ -97,7 +97,7 @@ public class GameMaster {
 		if((rolls[0]+rolls[1]) > 0) {
 			Player player = getCurrentPlayer();
 			gui.setRollDiceEnabled(false);
-			StringBuffer msg = new StringBuffer();
+			StringBuilder msg = new StringBuilder();
 			msg.append(player.getName())
 					.append(", you rolled ")
 					.append(rolls[0])
